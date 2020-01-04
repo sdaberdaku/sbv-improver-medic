@@ -1,0 +1,4 @@
+original_data/
+Data/
+*.RData
+taxonomy_tree.nw
