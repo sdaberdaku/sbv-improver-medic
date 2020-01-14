@@ -1,0 +1,18 @@
+#!/bin/bash
+#
+# set job name
+#$ -N all0.35
+#
+# Tutti i percorsi sono relativi alla cartella corrente (-cwd)
+# Genera output ed errori nella cartella corrente. 
+#$ -cwd
+#
+#$ -o output_prediction_0.35_all.txt
+#$ -e error_prediction_0.35_all.txt 
+#
+#$ -pe parallel 32
+#
+#$ -m n 
+
+singularity exec singularity-r.img Rscript prediction_0.35_all.R
+
