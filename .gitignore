@@ -2,3 +2,12 @@
 .Rhistory
 .RData
 .Ruserdata
+.DS_Store
+
+original_datasets/
+datasets/
+results/
+*.img
+*.sif
+error_prediction_*.txt
+output_prediction_*.txt
