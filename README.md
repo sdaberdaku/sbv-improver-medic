@@ -45,3 +45,7 @@ The processing steps are in the Methods of the paper above. Reprocessing the raw
 ## Software
 
 The jobs ran on an SGE cluster inside a Singularity image with R 3.6.1 (not included). The R package versions are listed in `Writeup.odt` (output of `sessionInfo()`): mainly caret, glmnet, kernlab, e1071, pROC, edgeR, limma, foreach and doMC.
+
+## License
+
+MIT, see [LICENSE](LICENSE).
